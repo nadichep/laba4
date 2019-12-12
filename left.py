@@ -2,7 +2,7 @@ from tkinter import *
 import random
 import socket
 from threading import Thread
-
+from typing import Tuple
 
 WIDTH = 1280
 HEIGHT = 720
@@ -37,7 +37,7 @@ SEND_IP_PORT2_2 = (middle_comp_ip, 10003)
 SEND_IP_PORT3 = (right_comp_ip, 10004)
 
 RECV_IP_PORT1 = (left_comp_ip, 11000)
-RECV_IP_PORT2 = (middle_comp_ip, 11001)
+RECV_IP_PORT2: = (middle_comp_ip, 11001)
 RECV_IP_PORT3 = (right_comp_ip, 11002)
 
 have_ball = False
